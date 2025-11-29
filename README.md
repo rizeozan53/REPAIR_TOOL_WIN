@@ -1,7 +1,7 @@
 # REPAIR_TOOL_WIN
-Windows 10/11 için geliştirilmiş hepsi bir arada bakım aracı (REPAIR_V8.0)
+Windows 10/11 için geliştirilmiş hepsi bir arada bakım aracı (V8.0)
 
-# 🛠️ Gelişmiş Sistem Bakım ve Onarım Aracı v8.0
+# 🛠️ Gelişmiş Sistem Bakım ve Onarım Aracı "REPAIR_V8.0"
 
 **By Ozan** tarafından geliştirilen bu araç, Windows işletim sistemlerinde sık karşılaşılan hataları onarmak, gereksiz dosyaları temizlemek ve sistem performansını optimize etmek için tasarlanmış kapsamlı bir Batch (.bat) betiğidir.
 
