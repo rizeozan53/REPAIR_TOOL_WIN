@@ -1,0 +1,28 @@
+CHANGELOG
+Project: Gelişmiş Sistem Bakım ve Onarım Aracı
+Developer: Ozan
+Latest Version: v8.0
+
+[v8.0.0] - 2025-11-29
+YENİLİKLER:
+- [YENİ] Gelişmiş Yönetici (Admin) Kontrolü eklendi. Artık yetki yoksa otomatik olarak UAC izni ister ve yeniden başlar .
+- [YENİ] Hosts Dosyası Yöneticisi eklendi. Yedekleme, geri yükleme ve "someonewhocares.org" üzerinden reklam engelleyici liste indirme özelliği getirildi .
+- [YENİ] Uzak Masaüstü (RDP) Port Değiştirme ve Firewall kuralı ekleme modülü eklendi .
+- [YENİ] BSOD (Mavi Ekran) Analizi için Minidump klasörünü otomatik ZIP'leme özelliği eklendi .
+- [YENİ] Windows Defender Tehdit Geçmişi görüntüleme komutu eklendi .
+
+DÜZENLEMELER:
+- [ARAYÜZ] Menü tasarımı tamamen yenilendi. ASCII art başlık ve kutulu menü yapısına geçildi .
+- [TEMİZLİK] Bloatware kaldırma listesi genişletildi (TikTok, Spotify, Candy Crush vb. eklendi) .
+- [LOG] Loglama sistemi güncellendi. Artık tüm işlemler "%USERPROFILE%\Logs\Repair" altında tarihli olarak tutuluyor .
+- [SİSTEM] Temp ve Prefetch temizliği için detaylı raporlama eklendi .
+
+[v7.5.0] - (Eski Sürüm)
+- Windows Update Cache temizleme sorunu giderildi.
+- "DISM /AnalyzeComponentStore" seçeneği eklendi.
+- Sürücü Doğrulayıcı (Verifier) menüye dahil edildi.
+
+[v7.0.0] - (Eski Sürüm)
+- İlk genel kararlı sürüm.
+- SFC ve DISM onarım döngüleri eklendi.
+- Temel ağ sıfırlama (Winsock reset) özellikleri eklendi.
