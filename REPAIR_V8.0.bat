@@ -11,10 +11,10 @@ if %errorlevel% neq 0 (
     echo.
     echo ╔═══════════════════════════════════════════════════════════╗
     echo ║                                                           ║
-    echo ║         YÖNETİCİ YETKİSİ GEREKLİ                         ║
+    echo ║         YÖNETİCİ YETKİSİ GEREKLİ                          ║
     echo ║                                                           ║
-    echo ║   Bu program yönetici izniyle çalıştırılmalıdır.        ║
-    echo ║   Lütfen UAC penceresinde "EVET" seçeneğine tıklayın.   ║
+    echo ║   Bu program yönetici izniyle çalıştırılmalıdır.          ║
+    echo ║   Lütfen UAC penceresinde "EVET" seçeneğine tıklayın.     ║
     echo ║                                                           ║
     echo ╚═══════════════════════════════════════════════════════════╝
     echo.
@@ -43,52 +43,52 @@ cls
 echo.
 echo ╔═══════════════════════════════════════════════════════════════════════════╗
 echo ║                                                                           ║
-echo ║        ██████╗ ██╗   ██╗     ██████╗ ███████╗ █████╗ ███╗  ██╗         ║
-echo ║        ██╔══██╗╚██╗ ██╔╝    ██╔═══██╗╚══███╔╝██╔══██╗████╗  ██║         ║
-echo ║        ██████╔╝ ╚████╔╝     ██║   ██║  ███╔╝ ███████║██╔██╗ ██║         ║
-echo ║        ██╔══██╗  ╚██╔╝      ██║   ██║ ███╔╝  ██╔══██║██║╚██╗██║         ║
-echo ║        ██████╔╝   ██║       ╚██████╔╝███████╗██║  ██║██║ ╚████║         ║
-echo ║        ╚═════╝    ╚═╝        ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝         ║
+echo ║        ██████╗ ██╗   ██╗     ██████╗ ███████╗ █████╗ ███╗  ██╗            ║
+echo ║        ██╔══██╗╚██╗ ██╔╝    ██╔═══██╗╚══███╔╝██╔══██╗████╗  ██║           ║
+echo ║        ██████╔╝ ╚████╔╝     ██║   ██║  ███╔╝ ███████║██╔██╗ ██║           ║
+echo ║        ██╔══██╗  ╚██╔╝      ██║   ██║ ███╔╝  ██╔══██║██║╚██╗██║           ║
+echo ║        ██████╔╝   ██║       ╚██████╔╝███████╗██║  ██║██║ ╚████║           ║
+echo ║        ╚═════╝    ╚═╝        ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝           ║
 echo ║                                                                           ║
-echo ║            GELİŞMİŞ WINDOWS BAKIM VE ONARIM ARACI v8.0                  ║
+echo ║            GELİŞMİŞ WINDOWS BAKIM VE ONARIM ARACI v8.0                    ║
 echo ║                                                                           ║
 echo ╚═══════════════════════════════════════════════════════════════════════════╝
 echo.
 echo ┌───────────────────────────────────────────────────────────────────────────┐
 echo │                         SİSTEM ONARIM ARAÇLARI                            │
 echo ├───────────────────────────────────────────────────────────────────────────┤
-echo │  [1]  Sistem Dosyası Onarımı (SFC /scannow)                              │
-echo │  [2]  Windows İmaj Onarımı (DISM /RestoreHealth)                         │
-echo │  [3]  DISM CheckHealth (Hızlı Kontrol)                                   │
-echo │  [4]  DISM ScanHealth (Detaylı Tarama)                                   │
-echo │  [5]  Disk Hataları Taraması (chkdsk C: /f /r)                           │
-echo │  [6]  Bileşen Temizleme (StartComponentCleanup)                          │
-echo │  [7]  Bileşen Deposu Analizi                                             │
-echo │  [8]  SFC Yalnızca Doğrulama (Onarım Yapmadan)                           │
+echo │  [1]  Sistem Dosyası Onarımı (SFC /scannow)                               │
+echo │  [2]  Windows İmaj Onarımı (DISM /RestoreHealth)                          │
+echo │  [3]  DISM CheckHealth (Hızlı Kontrol)                                    │
+echo │  [4]  DISM ScanHealth (Detaylı Tarama)                                    │
+echo │  [5]  Disk Hataları Taraması (chkdsk C: /f /r)                            │
+echo │  [6]  Bileşen Temizleme (StartComponentCleanup)                           │
+echo │  [7]  Bileşen Deposu Analizi                                              │
+echo │  [8]  SFC Yalnızca Doğrulama (Onarım Yapmadan)                            │
 echo ├───────────────────────────────────────────────────────────────────────────┤
-echo │                      SISTEM BİLGİ VE ARAÇLAR                           │
+echo │                      SISTEM BİLGİ VE ARAÇLAR                              │
 echo ├───────────────────────────────────────────────────────────────────────────┤
 echo │  [9]  Ağ Sıfırlama (Winsock ^& DNS Flush)                                 │
-echo │  [10] Boot Bilgisi Göster (bcdedit)                                      │
-echo │  [11] Sistem Bilgisi Göster (systeminfo)                                 │
-echo │  [12] Sürücü Doğrulayıcı Başlat (Driver Verifier)                        │
-echo │  [13] Windows Defender Tehdit Geçmişi                                    │
-echo │  [14] Sistem Geri Yükleme Başlat                                         │
+echo │  [10] Boot Bilgisi Göster (bcdedit)                                       │
+echo │  [11] Sistem Bilgisi Göster (systeminfo)                                  │
+echo │  [12] Sürücü Doğrulayıcı Başlat (Driver Verifier)                         │
+echo │  [13] Windows Defender Tehdit Geçmişi                                     │
+echo │  [14] Sistem Geri Yükleme Başlat                                          │
 echo ├───────────────────────────────────────────────────────────────────────────┤
-echo │             TEMİZLİK VE OPTİMİZASYON                          │
+echo │             TEMİZLİK VE OPTİMİZASYON                                      │
 echo ├───────────────────────────────────────────────────────────────────────────┤
-echo │  [15] Windows Update Cache Temizle                                       │
-echo │  [16] Microsoft Store Cache Sıfırla                                      │
-echo │  [17] Bloatware Kaldır (OneDrive, Xbox, Candy, vb.)                      │
+echo │  [15] Windows Update Cache Temizle                                        │
+echo │  [16] Microsoft Store Cache Sıfırla                                       │
+echo │  [17] Bloatware Kaldır (OneDrive, Xbox, Candy, vb.)                       │
 echo ├───────────────────────────────────────────────────────────────────────────┤
-echo │                         GELİŞMİŞ İŞLEMLER                                  │
+echo │                         GELİŞMİŞ İŞLEMLER                                 │
 echo ├───────────────────────────────────────────────────────────────────────────┤
-echo │  [18] Hosts Dosyası İşlemleri (Yedekle/Geri Yükle/Reklam Engelle)       │
+echo │  [18] Hosts Dosyası İşlemleri (Yedekle/Geri Yükle/Reklam Engelle)         │
 echo │  [19] Uzak Masaüstü Port ^& Firewall Ayarla                               │
-echo │  [20] Hızlı Kapatma / Yeniden Başlatma                                   │
-echo │  [21] BSOD Minidump Topla ve ZIP'le                                      │
+echo │  [20] Hızlı Kapatma / Yeniden Başlatma                                    │
+echo │  [21] BSOD Minidump Topla ve ZIP'le                                       │
 echo ├───────────────────────────────────────────────────────────────────────────┤
-echo │  [0]  ÇIKIŞ                                                                │
+echo │  [0]  ÇIKIŞ                                                               │
 echo └───────────────────────────────────────────────────────────────────────────┘
 echo.
 set /p secim=" Seçiminiz (0-21): "
@@ -126,7 +126,7 @@ goto MENU
 :UPDATE_CACHE_CLEAN
 echo.
 echo ┌─────────────────────────────────────────────────────┐
-echo │  Windows Update Cache Temizleniyor...              │
+echo │  Windows Update Cache Temizleniyor...               │
 echo └─────────────────────────────────────────────────────┘
 >>"%LOG%\%DATE:~-4,4%-%DATE:~3,2%-%DATE:~0,2%.log" 2>&1 (
   sc stop wuauserv
@@ -141,7 +141,7 @@ goto :eof
 :BLOAT_REMOVE
 echo.
 echo ┌─────────────────────────────────────────────────────┐
-echo │  Bloatware Kaldırılıyor...                         │
+echo │  Bloatware Kaldırılıyor...                          │
 echo └─────────────────────────────────────────────────────┘
 >>"%LOG%\%DATE:~-4,4%-%DATE:~3,2%-%DATE:~0,2%.log" 2>&1 (
   powershell -NoLogo -ExecutionPolicy Bypass -Command "Get-AppxPackage *oneconnect* | Remove-AppxPackage; Get-AppxPackage *xbox* | Remove-AppxPackage; Get-AppxPackage *candy* | Remove-AppxPackage; Get-AppxPackage *spotify* | Remove-AppxPackage; Get-AppxPackage *tiktok* | Remove-AppxPackage"
@@ -153,7 +153,7 @@ goto :eof
 cls
 echo.
 echo ╔═══════════════════════════════════════════════════════╗
-echo ║            HOSTS DOSYASI İŞLEMLERİ                   ║
+echo ║            HOSTS DOSYASI İŞLEMLERİ                    ║
 echo ╚═══════════════════════════════════════════════════════╝
 echo.
 echo  [1] Hosts dosyasını yedekle
@@ -180,7 +180,7 @@ goto MENU
 :RDP_PORT_FW
 echo.
 echo ┌─────────────────────────────────────────────────────┐
-echo │  RDP Port ve Firewall Ayarları                     │
+echo │  RDP Port ve Firewall Ayarları                      │
 echo └─────────────────────────────────────────────────────┘
 set /p yport= Yeni RDP portu (1024-65535): 
 if "%yport%"=="" goto :eof
@@ -192,7 +192,7 @@ goto :eof
 :FAST_POWER
 echo.
 echo ┌─────────────────────────────────────────────────────┐
-echo │  Hızlı Güç İşlemleri                               │
+echo │  Hızlı Güç İşlemleri                                │
 echo └─────────────────────────────────────────────────────┘
 echo  [S] Hızlı Kapatma (Shutdown)
 echo  [R] Hızlı Yeniden Başlatma (Reboot)
@@ -207,7 +207,7 @@ goto :eof
 :COLLECT_BSOD
 echo.
 echo ┌─────────────────────────────────────────────────────┐
-echo │  BSOD Minidump Toplama                             │
+echo │  BSOD Minidump Toplama                              │
 echo └─────────────────────────────────────────────────────┘
 set "zip=%USERPROFILE%\Desktop\BSOD_%DATE:~-4,4%%DATE:~3,2%%DATE:~0,2%.zip"
 if not exist "%WINDIR%\Minidump" (
@@ -309,9 +309,10 @@ cls
 echo.
 echo ╔═══════════════════════════════════════════════════════╗
 echo ║                                                       ║
-echo ║     Sistem Bakım Aracı kapatılıyor...               ║
-echo ║     Ozan tarafından geliştirildi - 2025             ║
+echo ║     Sistem Bakım Aracı kapatılıyor...                 ║
+echo ║     Ozan tarafından geliştirildi - 2025               ║
 echo ║                                                       ║
 echo ╚═══════════════════════════════════════════════════════╝
 timeout /t 2 /nobreak >nul
 exit /b
+
